@@ -4,5 +4,10 @@
     Welcome to {{ title }}!
   </h1>
 </div>
-<app-heroes></app-heroes>
+<nav>
+  <a routerLink="/heroes">Heroes</a>
+  <a routerLink="/dashboard">Dashboard</a>
+</nav>
+<!-- <app-heroes></app-heroes> -->
+<router-outlet></router-outlet>
 <app-messages></app-messages>
